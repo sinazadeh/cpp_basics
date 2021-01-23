@@ -1,5 +1,6 @@
 #include <cstdlib>
 #include <ctime>
+
 using namespace std;
 
 unsigned short int random_number(unsigned short int min, unsigned short int max){
