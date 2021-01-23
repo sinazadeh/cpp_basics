@@ -1,3 +1,1 @@
-using namespace std;
-
-string random_text(vector<string> dataset);
+std::string random_text(std::vector<std::string> dataset);
