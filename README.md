@@ -1,2 +1,2 @@
-# cpp-basics
-C++ basic programs 
+# C++ basic programs
+
