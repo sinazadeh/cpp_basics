@@ -1,7 +1,7 @@
 # C++ Random Text from Dataset Generator
 This program generates random text from a vector dataset in C++.
 
-## Examples
+## Example
 Consider you have a dataset like:
 
 dataset = {"Rock", "Paper", "Scissors", "Lizard", "Spock"};
