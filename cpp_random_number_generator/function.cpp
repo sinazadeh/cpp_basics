@@ -1,9 +1,10 @@
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 
-unsigned int random_number(unsigned int min, unsigned int max){
+uintmax_t random_number(uintmax_t min, uintmax_t max){
   // Not included
-  unsigned int answer;
+  uintmax_t answer;
 
   srand(time(NULL));
   if (min == 0 && max == 0){

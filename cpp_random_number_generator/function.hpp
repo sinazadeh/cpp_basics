@@ -1,1 +1,1 @@
-unsigned int random_number(unsigned int min=0, unsigned int max=0);
+uintmax_t random_number(uintmax_t min=0, uintmax_t max=0);

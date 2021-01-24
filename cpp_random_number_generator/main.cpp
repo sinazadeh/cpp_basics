@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
   cout << "A Random Number:\n";
-  unsigned int number = random_number();
+  uintmax_t number = random_number();
   cout << number << "\n";
   cout << "A Random Number Between 0 to 10:\n";
   number = random_number(0,10);
