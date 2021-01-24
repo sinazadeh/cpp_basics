@@ -7,6 +7,7 @@ This program generates random numbers in C++.
 *Generates a Random Number.*
 
 **random_number(14,23)**
+
 *Generates a Random Number between 14 to 23.*
 
 For more examples, please take a look at [main.cpp](main.cpp).
