@@ -11,12 +11,13 @@ unsigned int random_number(unsigned int min, unsigned int max){
   else{
     answer = rand()%max;
     unsigned int tries = 0;
-    while (answer < min + 1 && tries < 50){
+    unsigned int maxtries = 50;
+    while (answer < min + 1 && tries < maxtries){
       answer = rand()%max;
       tries ++;
       }
-    if (tries == 50){
-      answer = (max + min) / 2;
+    if (tries == maxtries){
+      answer = ((max+min)/2)+(rand()%((max-min)/2));
     }
   }
   return answer;
