@@ -1,17 +1,23 @@
 #include <cstdlib>
 #include <ctime>
 
-unsigned short int random_number(unsigned short int min, unsigned short int max){
+unsigned int random_number(unsigned int min, unsigned int max){
   // Not included
-  unsigned short int answer;
+  unsigned int answer;
   srand(time(NULL));
   if (min == 0 && max == 0){
     answer = rand();
   }
   else{
     answer = rand()%max;
-    while (answer < min + 1){
-      answer = rand()%max;}
+    unsigned int tries = 0;
+    while (answer < min + 1 && tries < 50){
+      answer = rand()%max;
+      tries ++;
+      }
+    if (tries == 50){
+      answer = (max + min) / 2;
+    }
   }
   return answer;
 }

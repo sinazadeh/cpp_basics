@@ -1,1 +1,1 @@
-unsigned short int random_number(unsigned short int min=0, unsigned short int max=0);
+unsigned int random_number(unsigned int min=0, unsigned int max=0);
