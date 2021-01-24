@@ -18,7 +18,7 @@ int main(){
   cout << "A Random Number Between 2000000 to 3000000:\n";
   number = random_number(2000000,3000000);
   cout << number << "\n";
-  cout << "A Random Number Between 876345217 to 634521787:\n";
-  number = random_number(876345217,634521787);
-  cout << number << "\n";
+  cout << "A Random Number Between 634521787 to 876345217:\n";
+  number = random_number(634521787,876345217);
+  cout << number;
 }
