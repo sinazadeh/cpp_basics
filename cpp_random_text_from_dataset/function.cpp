@@ -1,9 +1,9 @@
 #include <iostream>
+using std::string;
 #include <vector>
+using std::vector;
 #include <cstdlib>
 #include <ctime>
-
-using namespace std;
 
 string random_text(vector<string> dataset){
   string answer;
