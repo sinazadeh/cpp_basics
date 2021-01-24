@@ -4,7 +4,7 @@
 unsigned int random_number(unsigned int min, unsigned int max){
   // Not included
   unsigned int answer;
-  
+
   srand(time(NULL));
   if (min == 0 && max == 0){
     answer = rand();
@@ -19,7 +19,12 @@ unsigned int random_number(unsigned int min, unsigned int max){
       tries ++;
       }
     if (tries == maxtries){
-      answer = ((max+min)/2)+(rand()%((max-min)/2));
+      if (rand()%2 == 0){
+        answer = ((max+min)/2)+(rand()%((max-min)/2));
+      }
+      else{
+        answer = ((max+min)/2)-(rand()%((max-min)/2));
+      }
     }
   }
   return answer;
