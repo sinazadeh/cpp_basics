@@ -1,5 +1,5 @@
 # C++ Random Text from Dataset Picker
-This program picks random text from a vector dataset in C++.
+This program picks a random text from a vector dataset in C++.
 
 ## Example
 Consider you have a dataset like:
