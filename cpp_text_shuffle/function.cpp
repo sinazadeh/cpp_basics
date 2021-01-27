@@ -6,7 +6,7 @@ using std::cout;
 
 string text_shuffle(string text){
   srand(time(NULL));
-  for (int i=0; i<10; i++){
+  for (int i=0; i<(text.size())/2; i++){
     unsigned int random_index = rand()%text.size();
     text.push_back(text[random_index]);
     text.erase(random_index, 1);
