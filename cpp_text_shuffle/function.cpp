@@ -1,6 +1,5 @@
-#include <iostream>
+#include <string>
 using std::string;
-using std::cout;
 #include <cstdlib>
 #include <ctime>
 

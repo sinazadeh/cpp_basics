@@ -1,6 +1,5 @@
-#include <iostream>
-using std::cout;
 #include "function.hpp"
+using std::cout;
 
 int main(){
   cout << "A Random Number:\n";

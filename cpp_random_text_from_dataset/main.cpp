@@ -1,9 +1,8 @@
-#include <iostream>
-using std::cout;
-using std::string;
 #include <vector>
 using std::vector;
 #include "function.hpp"
+using std::cout;
+using std::string;
 
 int main(){
   vector<string> dataset = {"Rock", "Paper", "Scissors", "Lizard", "Spock"};

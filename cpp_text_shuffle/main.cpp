@@ -1,7 +1,6 @@
-#include <iostream>
-using std::cout;
-using std::string;
 #include "function.hpp"
+using std::string;
+using std::cout;
 
 int main(){
   string text = "darling";

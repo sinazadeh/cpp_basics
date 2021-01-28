@@ -1,7 +1,6 @@
-#include <iostream>
+#include "function.hpp"
 using std::string;
 using std::cout;
-#include "function.hpp"
 
 int main(){
     string text, rev_text;
