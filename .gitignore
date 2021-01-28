@@ -12,3 +12,4 @@ cpp_random_number_generator/main.exe
 cpp_random_text_from_dataset/main.exe
 cpp_text_shuffle/main.exe
 .gitignore
+cpp_palindrome/main.exe
