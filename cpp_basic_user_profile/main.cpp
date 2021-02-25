@@ -2,7 +2,7 @@
 
 int main() {
     // Create a User Profile
-    Profile sam("Sam Drakila", 29, "Ankara", "Turkey", "he/him", {"listening to audiobooks and podcasts"});
+    Profile sam("Sam Drakila", 29, "Ankara", "Turkey", "He", {"listening to audiobooks and podcasts"});
     // Show Profile
     sam.show_profile();
     // Change Profile

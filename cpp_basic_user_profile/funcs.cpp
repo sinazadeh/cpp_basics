@@ -16,9 +16,8 @@ Profile::Profile(string new_name, int new_age, string new_city, string new_count
 }
 void Profile::show_profile(){
     string hobbies_text;
-    cout << "USER PROFILE:\n" << name << "\n";
-    cout << "Age: " << age << "\n";
-    cout << "Location: " << city << ", " << country << "\n";
+    cout << "USER PROFILE:\nThis is " << name << ". " << pronouns << " is " << age << " years old. ";
+    cout << pronouns << " is from " << city << ", " << country << ".\n";
     cout << "Hobbies: ";
     for (int i=0; i<hobbies.size(); i++){
         hobbies_text +=  hobbies[i] + ", ";
