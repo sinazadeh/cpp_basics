@@ -25,10 +25,23 @@ void Profile::show_profile(){
         hobbies_text +=  hobbies[i] + ", ";
     }
     hobbies_text.erase (hobbies_text.end()-2, hobbies_text.end()); 
-    cout << hobbies_text;
+    cout << hobbies_text << "\n\n";
 }
 void Profile::add_hobby(vector<string> add_hobbies){
     for (int i=0; i<add_hobbies.size(); i++){
         hobbies.push_back(add_hobbies[i]);
     }
+}
+void Profile::change_name(string new_name){
+    name = new_name;
+    }
+void Profile::change_age(int new_age){
+    age = new_age;
+}
+void Profile::change_location(string new_city, string new_country){
+    city = new_city;
+    country = new_country;
+}
+void Profile::change_hobbies(vector<string> new_hobbies){
+    hobbies = new_hobbies;
 }

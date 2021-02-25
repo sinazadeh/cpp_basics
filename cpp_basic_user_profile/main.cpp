@@ -1,8 +1,17 @@
 #include "funcs.hpp"
 
 int main() {
-    Profile sam("Sam Drakkila", 29, "Ankara", "Turkey", "he/him", {"listening to audiobooks and podcasts"});
+    // Create a User Profile
+    Profile sam("Sam Drakila", 29, "Ankara", "Turkey", "he/him", {"listening to audiobooks and podcasts"});
+    // Show Profile
+    sam.show_profile();
+    // Change Profile
+    sam.change_name("Samuel Drakkila");
+    sam.change_age(28);
+    sam.change_location("Berlin", "Germany");
+    sam.change_hobbies({"reading advice columns"});
+    // Add Hobbies
     sam.add_hobby({"playing rec sports like bowling and kickball","writing a speculative fiction novel"});
-    sam.add_hobby({"reading advice columns"});
+    // Show Profile
     sam.show_profile();
     }
