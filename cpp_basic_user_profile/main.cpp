@@ -2,11 +2,12 @@
 
 int main() {
     // Create a User Profile
-    Profile sam("Sam Drakila", 29, "Ankara", "Turkey", "He", {"listening to audiobooks"});
+    Profile sam("Sam Drakila", 29, "Ankara", "Turkey", "Female", {"listening to audiobooks"});
     // Show Profile
     sam.show_profile();
     // Change Profile
     sam.change_name("Samuel Drakkila");
+    sam.change_gender("Male");
     sam.change_age(28);
     sam.change_location("Berlin", "Germany");
     sam.change_hobbies({"reading advice columns"});
