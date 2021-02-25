@@ -6,7 +6,6 @@ using std::cout;
 using std::vector;
 #include "funcs.hpp"
 
-
 Profile::Profile(string new_name, int new_age, string new_city, string new_country, string new_pronouns, vector<string> new_hobbies){
     name = new_name;
     age = new_age;
